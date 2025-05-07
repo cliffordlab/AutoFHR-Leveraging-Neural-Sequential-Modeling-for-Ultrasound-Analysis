@@ -1,6 +1,6 @@
 # AutoFHR: A Neural Temporal Model for Fetal Cardiac Activity Analysis
 
-AutoFHR is a GenAI-based solution for automatic heart rate localization from Doppler ultrasound (DUS) signals. It leverages an autoregressive architecture with dilated causal convolutions and attention mechanisms as well as an innovative learning objective to specifically analyze fetal heart rate dynamics.
+AutoFHR is a GenAI-based solution for automatic heart rate localization from Doppler ultrasound (DUS) signals. It leverages an autoregressive architecture with dilated causal convolutions and attention mechanisms, as well as an innovative learning objective to specifically analyze fetal heart rate dynamics.
 
 ## Key Features
 
@@ -107,6 +107,8 @@ Additional options:
 ```
 AutoFHR/
 ├── data/                      # Sample data
+├── autocorrelation/           # Autocorrelation function model
+│   └── main.py                # Main implementation
 ├── slurm/                     # Slurm scripts for cluster training
 │   └── run.sh                 # Main Slurm job script
 ├── src/                       # Source code
@@ -144,5 +146,20 @@ If you find this work useful, please cite:
   title = {},
   year = {},
   url = {}
+}
+```
+
+To cite the autocorrelation function method, use:
+
+```bibtex
+@article{valderrama2019open,
+  title={An open source autocorrelation-based method for fetal heart rate estimation from one-dimensional Doppler ultrasound},
+  author={Valderrama, Camilo E and Stroux, Lisa and Katebi, Nasim and Paljug, Elianna and Hall-Clifford, Rachel and Rohloff, Peter and Marzbanrad, Faezeh and Clifford, Gari D},
+  journal={Physiological measurement},
+  volume={40},
+  number={2},
+  pages={025005},
+  year={2019},
+  publisher={IOP Publishing}
 }
 ```
