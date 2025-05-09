@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15375049.svg)](https://doi.org/10.5281/zenodo.15375049)
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Paper](https://img.shields.io/badge/Paper-Science%20Direct-blue.svg)](#url to be added)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-green.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-red.svg)](https://www.python.org/downloads/)
+[![Paper](https://img.shields.io/badge/Paper-Science%20Direct-orange.svg)](https://)
 
 # AutoFHR: A Neural Temporal Model for Fetal Cardiac Activity Analysis
 
