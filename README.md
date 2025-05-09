@@ -1,3 +1,8 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15375049.svg)](https://doi.org/10.5281/zenodo.15375049)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Paper](https://img.shields.io/badge/Paper-Science%20Direct-blue.svg)](#url to be added)
+
 # AutoFHR: A Neural Temporal Model for Fetal Cardiac Activity Analysis
 
 AutoFHR is a GenAI-based solution for automatic heart rate localization from Doppler ultrasound (DUS) signals. It leverages an autoregressive architecture with dilated causal convolutions and attention mechanisms, as well as an innovative learning objective to specifically analyze fetal heart rate dynamics.
@@ -149,17 +154,30 @@ If you find this work useful, please cite:
 }
 ```
 
+```bibtex
+@software{rafiei_2025_15375049,
+  title        = {AutoFHR v1.0.0},
+  author       = {Rafiei, Alireza and Katebi, Nasim and Clifford, Gari D.},
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.15375049},
+  url          = {https://doi.org/10.5281/zenodo.15375049},
+}
+```
+
 To cite the autocorrelation function method, use:
 
 ```bibtex
 @article{valderrama2019open,
-  title={An open source autocorrelation-based method for fetal heart rate estimation from one-dimensional Doppler ultrasound},
-  author={Valderrama, Camilo E and Stroux, Lisa and Katebi, Nasim and Paljug, Elianna and Hall-Clifford, Rachel and Rohloff, Peter and Marzbanrad, Faezeh and Clifford, Gari D},
-  journal={Physiological measurement},
-  volume={40},
-  number={2},
-  pages={025005},
-  year={2019},
-  publisher={IOP Publishing}
+  title         = {An open source autocorrelation-based method for fetal heart rate estimation from one-dimensional Doppler ultrasound},
+  author        = {Valderrama, Camilo E and Stroux, Lisa and Katebi, Nasim and Paljug, Elianna and Hall-Clifford, Rachel and Rohloff, Peter and Marzbanrad, Faezeh and Clifford, Gari D},
+  journal       = {Physiological measurement},
+  volume        = {40},
+  number        = {2},
+  pages         = {025005},
+  year          = {2019},
+  publisher     = {IOP Publishing},
+  doi           = {10.1088/1361-6579/ab033d}
 }
 ```
