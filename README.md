@@ -146,16 +146,19 @@ This project is licensed under the GPL-3.0 License - see the LICENSE file for de
 If you find this work useful, please cite:
 
 ```bibtex
-@article{,
-  author = {},
-  title = {},
-  year = {},
-  url = {}
-}
+@article{rafiei2025autofhr,
+  author={Rafiei, Alireza and Motie-Shirazi, Mohsen and Sameni, Reza and Clifford, Gari D. and Katebi, Nasim},
+  journal={IEEE Transactions on Biomedical Engineering}, 
+  title={Next-Generation Fetal Heart Monitoring: Leveraging Neural Sequential Modeling for Ultrasound Analysis}, 
+  year={2026},
+  volume={73},
+  number={1},
+  pages={472-483},
+  doi={10.1109/TBME.2025.3585461}}
 ```
 
 ```bibtex
-@software{rafiei_2025_15375049,
+@software{rafiei2025autofhr,
   title        = {AutoFHR v1.0.0},
   author       = {Rafiei, Alireza and Katebi, Nasim and Clifford, Gari D.},
   year         = 2025,
